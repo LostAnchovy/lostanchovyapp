@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C43865B2204600B4000CD3CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43865B1204600B4000CD3CB /* AppDelegate.swift */; };
+		C43865B4204600B4000CD3CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43865B3204600B4000CD3CB /* ViewController.swift */; };
+		C43865B7204600B4000CD3CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43865B5204600B4000CD3CB /* Main.storyboard */; };
+		C43865BA204600B4000CD3CB /* The_Lost_Anchovy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C43865B8204600B4000CD3CB /* The_Lost_Anchovy.xcdatamodeld */; };
+		C43865BC204600B4000CD3CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43865BB204600B4000CD3CB /* Assets.xcassets */; };
+		C43865BF204600B4000CD3CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43865BD204600B4000CD3CB /* LaunchScreen.storyboard */; };
+		C43865CA204600B4000CD3CB /* The_Lost_AnchovyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43865C9204600B4000CD3CB /* The_Lost_AnchovyTests.swift */; };
+		C43865D5204600B4000CD3CB /* The_Lost_AnchovyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43865D4204600B4000CD3CB /* The_Lost_AnchovyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C43865C6204600B4000CD3CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C43865A6204600B4000CD3CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C43865AD204600B4000CD3CB;
+			remoteInfo = "The Lost Anchovy";
+		};
+		C43865D1204600B4000CD3CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C43865A6204600B4000CD3CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C43865AD204600B4000CD3CB;
+			remoteInfo = "The Lost Anchovy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C43865AE204600B4000CD3CB /* The Lost Anchovy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Lost Anchovy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43865B1204600B4000CD3CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C43865B3204600B4000CD3CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C43865B6204600B4000CD3CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C43865B9204600B4000CD3CB /* The_Lost_Anchovy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = The_Lost_Anchovy.xcdatamodel; sourceTree = "<group>"; };
+		C43865BB204600B4000CD3CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C43865BE204600B4000CD3CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C43865C0204600B4000CD3CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C43865C5204600B4000CD3CB /* The Lost AnchovyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Lost AnchovyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43865C9204600B4000CD3CB /* The_Lost_AnchovyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Lost_AnchovyTests.swift; sourceTree = "<group>"; };
+		C43865CB204600B4000CD3CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C43865D0204600B4000CD3CB /* The Lost AnchovyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Lost AnchovyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43865D4204600B4000CD3CB /* The_Lost_AnchovyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Lost_AnchovyUITests.swift; sourceTree = "<group>"; };
+		C43865D6204600B4000CD3CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C43865AB204600B4000CD3CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43865C2204600B4000CD3CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43865CD204600B4000CD3CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C43865A5204600B4000CD3CB = {
+			isa = PBXGroup;
+			children = (
+				C43865B0204600B4000CD3CB /* The Lost Anchovy */,
+				C43865C8204600B4000CD3CB /* The Lost AnchovyTests */,
+				C43865D3204600B4000CD3CB /* The Lost AnchovyUITests */,
+				C43865AF204600B4000CD3CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C43865AF204600B4000CD3CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C43865AE204600B4000CD3CB /* The Lost Anchovy.app */,
+				C43865C5204600B4000CD3CB /* The Lost AnchovyTests.xctest */,
+				C43865D0204600B4000CD3CB /* The Lost AnchovyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C43865B0204600B4000CD3CB /* The Lost Anchovy */ = {
+			isa = PBXGroup;
+			children = (
+				C43865B1204600B4000CD3CB /* AppDelegate.swift */,
+				C43865B3204600B4000CD3CB /* ViewController.swift */,
+				C43865B5204600B4000CD3CB /* Main.storyboard */,
+				C43865BB204600B4000CD3CB /* Assets.xcassets */,
+				C43865BD204600B4000CD3CB /* LaunchScreen.storyboard */,
+				C43865C0204600B4000CD3CB /* Info.plist */,
+				C43865B8204600B4000CD3CB /* The_Lost_Anchovy.xcdatamodeld */,
+			);
+			path = "The Lost Anchovy";
+			sourceTree = "<group>";
+		};
+		C43865C8204600B4000CD3CB /* The Lost AnchovyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C43865C9204600B4000CD3CB /* The_Lost_AnchovyTests.swift */,
+				C43865CB204600B4000CD3CB /* Info.plist */,
+			);
+			path = "The Lost AnchovyTests";
+			sourceTree = "<group>";
+		};
+		C43865D3204600B4000CD3CB /* The Lost AnchovyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C43865D4204600B4000CD3CB /* The_Lost_AnchovyUITests.swift */,
+				C43865D6204600B4000CD3CB /* Info.plist */,
+			);
+			path = "The Lost AnchovyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C43865AD204600B4000CD3CB /* The Lost Anchovy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43865D9204600B4000CD3CB /* Build configuration list for PBXNativeTarget "The Lost Anchovy" */;
+			buildPhases = (
+				C43865AA204600B4000CD3CB /* Sources */,
+				C43865AB204600B4000CD3CB /* Frameworks */,
+				C43865AC204600B4000CD3CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Lost Anchovy";
+			productName = "The Lost Anchovy";
+			productReference = C43865AE204600B4000CD3CB /* The Lost Anchovy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C43865C4204600B4000CD3CB /* The Lost AnchovyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43865DC204600B4000CD3CB /* Build configuration list for PBXNativeTarget "The Lost AnchovyTests" */;
+			buildPhases = (
+				C43865C1204600B4000CD3CB /* Sources */,
+				C43865C2204600B4000CD3CB /* Frameworks */,
+				C43865C3204600B4000CD3CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C43865C7204600B4000CD3CB /* PBXTargetDependency */,
+			);
+			name = "The Lost AnchovyTests";
+			productName = "The Lost AnchovyTests";
+			productReference = C43865C5204600B4000CD3CB /* The Lost AnchovyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C43865CF204600B4000CD3CB /* The Lost AnchovyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43865DF204600B4000CD3CB /* Build configuration list for PBXNativeTarget "The Lost AnchovyUITests" */;
+			buildPhases = (
+				C43865CC204600B4000CD3CB /* Sources */,
+				C43865CD204600B4000CD3CB /* Frameworks */,
+				C43865CE204600B4000CD3CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C43865D2204600B4000CD3CB /* PBXTargetDependency */,
+			);
+			name = "The Lost AnchovyUITests";
+			productName = "The Lost AnchovyUITests";
+			productReference = C43865D0204600B4000CD3CB /* The Lost AnchovyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C43865A6204600B4000CD3CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Lost_Anchovy LLC";
+				TargetAttributes = {
+					C43865AD204600B4000CD3CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C43865C4204600B4000CD3CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C43865AD204600B4000CD3CB;
+					};
+					C43865CF204600B4000CD3CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C43865AD204600B4000CD3CB;
+					};
+				};
+			};
+			buildConfigurationList = C43865A9204600B4000CD3CB /* Build configuration list for PBXProject "The Lost Anchovy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C43865A5204600B4000CD3CB;
+			productRefGroup = C43865AF204600B4000CD3CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C43865AD204600B4000CD3CB /* The Lost Anchovy */,
+				C43865C4204600B4000CD3CB /* The Lost AnchovyTests */,
+				C43865CF204600B4000CD3CB /* The Lost AnchovyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C43865AC204600B4000CD3CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43865BF204600B4000CD3CB /* LaunchScreen.storyboard in Resources */,
+				C43865BC204600B4000CD3CB /* Assets.xcassets in Resources */,
+				C43865B7204600B4000CD3CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43865C3204600B4000CD3CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43865CE204600B4000CD3CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C43865AA204600B4000CD3CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43865B4204600B4000CD3CB /* ViewController.swift in Sources */,
+				C43865BA204600B4000CD3CB /* The_Lost_Anchovy.xcdatamodeld in Sources */,
+				C43865B2204600B4000CD3CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43865C1204600B4000CD3CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43865CA204600B4000CD3CB /* The_Lost_AnchovyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43865CC204600B4000CD3CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43865D5204600B4000CD3CB /* The_Lost_AnchovyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C43865C7204600B4000CD3CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C43865AD204600B4000CD3CB /* The Lost Anchovy */;
+			targetProxy = C43865C6204600B4000CD3CB /* PBXContainerItemProxy */;
+		};
+		C43865D2204600B4000CD3CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C43865AD204600B4000CD3CB /* The Lost Anchovy */;
+			targetProxy = C43865D1204600B4000CD3CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C43865B5204600B4000CD3CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C43865B6204600B4000CD3CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C43865BD204600B4000CD3CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C43865BE204600B4000CD3CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C43865D7204600B4000CD3CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C43865D8204600B4000CD3CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C43865DA204600B4000CD3CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JP64ELKB9;
+				INFOPLIST_FILE = "The Lost Anchovy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TLA.The-Lost-Anchovy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C43865DB204600B4000CD3CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JP64ELKB9;
+				INFOPLIST_FILE = "The Lost Anchovy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TLA.The-Lost-Anchovy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C43865DD204600B4000CD3CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JP64ELKB9;
+				INFOPLIST_FILE = "The Lost AnchovyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TLA.The-Lost-AnchovyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Lost Anchovy.app/The Lost Anchovy";
+			};
+			name = Debug;
+		};
+		C43865DE204600B4000CD3CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JP64ELKB9;
+				INFOPLIST_FILE = "The Lost AnchovyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TLA.The-Lost-AnchovyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Lost Anchovy.app/The Lost Anchovy";
+			};
+			name = Release;
+		};
+		C43865E0204600B4000CD3CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JP64ELKB9;
+				INFOPLIST_FILE = "The Lost AnchovyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TLA.The-Lost-AnchovyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Lost Anchovy";
+			};
+			name = Debug;
+		};
+		C43865E1204600B4000CD3CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JP64ELKB9;
+				INFOPLIST_FILE = "The Lost AnchovyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TLA.The-Lost-AnchovyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Lost Anchovy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C43865A9204600B4000CD3CB /* Build configuration list for PBXProject "The Lost Anchovy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43865D7204600B4000CD3CB /* Debug */,
+				C43865D8204600B4000CD3CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43865D9204600B4000CD3CB /* Build configuration list for PBXNativeTarget "The Lost Anchovy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43865DA204600B4000CD3CB /* Debug */,
+				C43865DB204600B4000CD3CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43865DC204600B4000CD3CB /* Build configuration list for PBXNativeTarget "The Lost AnchovyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43865DD204600B4000CD3CB /* Debug */,
+				C43865DE204600B4000CD3CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43865DF204600B4000CD3CB /* Build configuration list for PBXNativeTarget "The Lost AnchovyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43865E0204600B4000CD3CB /* Debug */,
+				C43865E1204600B4000CD3CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C43865B8204600B4000CD3CB /* The_Lost_Anchovy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C43865B9204600B4000CD3CB /* The_Lost_Anchovy.xcdatamodel */,
+			);
+			currentVersion = C43865B9204600B4000CD3CB /* The_Lost_Anchovy.xcdatamodel */;
+			path = The_Lost_Anchovy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C43865A6204600B4000CD3CB /* Project object */;
+}
